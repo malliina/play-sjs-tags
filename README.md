@@ -1,7 +1,7 @@
 # play-sjs-tags
 
 This [Play Framework](http://www.playframework.com/) example web app uses [Scalatags](http://www.lihaoyi.com/scalatags/) 
-as its template engine and has a [Scala.js](http://www.scala-js.org/) module in the `client` subfolder 
+as its template engine and has a [Scala.js](http://www.scala-js.org/) module in the `frontend` subfolder 
 for frontend code.
 
 Play and Scala.js integration is managed by the [sbt-web-scalajs](https://github.com/vmunier/sbt-web-scalajs) SBT plugin.

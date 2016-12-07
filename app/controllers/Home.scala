@@ -15,8 +15,8 @@ class Home extends Controller {
       html(lang := "en")(
         body(
           h1(msg),
-          jsAssetAt("client-fastopt.js"),
-          jsAssetAt("client-launcher.js")
+          jsAssetAt("frontend-fastopt.js"),
+          jsAssetAt("frontend-launcher.js")
         )
       )
     )

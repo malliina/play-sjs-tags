@@ -1,11 +1,11 @@
-lazy val client = project.enablePlugins(ScalaJSPlugin, ScalaJSWeb).settings(
+lazy val frontend = project.enablePlugins(ScalaJSPlugin, ScalaJSWeb).settings(
   persistLauncher := true
 )
 
 lazy val p = com.malliina.sbtplay.PlayProject("play-sjs-tags")
   .enablePlugins(SbtWeb)
   .settings(
-    scalaJSProjects := Seq(client),
+    scalaJSProjects := Seq(frontend),
     pipelineStages in Assets := Seq(scalaJSPipeline),
     organization := "com.malliina",
     version := "0.0.1",
