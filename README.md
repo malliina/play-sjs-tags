@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/malliina/play-sjs-tags.svg?branch=master)](https://travis-ci.org/malliina/play-sjs-tags)
+
 # play-sjs-tags
 
 This [Play Framework](http://www.playframework.com/) example web app uses [Scalatags](http://www.lihaoyi.com/scalatags/) 
